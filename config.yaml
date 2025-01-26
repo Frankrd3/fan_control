@@ -1,0 +1,12 @@
+---
+device_config:
+  local: false
+  host:
+  port: 623
+  # ipmitool -I lanplus -H xxxx -U xxx -P xxx sdr type 0x01
+  cpu0_id: 0x0e
+  cpu1_id: 0x0f
+
+auth:
+  username:
+  password:
